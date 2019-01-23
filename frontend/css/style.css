@@ -1,4 +1,10 @@
 @import "color.css";
 @import "fonts.css";
-
+h1 {
+  color: antiquewhite;
+  font-family: '';
+}
+p {
+  font-family: 'OpenSans_Light';
+}
 /*# sourceMappingURL=style.css.map */
