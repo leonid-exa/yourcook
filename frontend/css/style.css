@@ -1,13 +1,36 @@
 @import "reset.css";
 @import "color.css";
 @import "fonts.css";
-body header {
+body header .container .menu {
+  display: flex;
+  justify-content: flex-end;
+}
+body header .container .menu ul {
+  display: flex;
+  flex-direction: row;
+}
+body header .container .menu ul li {
+  padding: 20px;
+}
+body header .container .menu ul li a {
+  text-decoration: none;
+  color: gainsboro;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Yesteryear_Regular', sans-serif;
+}
+header {
   width: 100%;
   background: url("../img/bg_header.jpg") top center no-repeat / cover;
   color: #fff;
 }
-body header .containet .menu ul li a {
-  text-transform: uppercase;
-  color: #823f3f;
+p {
+  color: red;
+  font-family: 'Yesteryear_Regular';
+}
+a {
+  font-family: Yesteryear_Regular;
+  color: #4f9900;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

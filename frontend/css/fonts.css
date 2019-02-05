@@ -1,8 +1,8 @@
+/*Italic*/
 @font-face {
     font-family: 'Yesteryear_Regular';
     src: url('../fonts/Yesteryear_Regular.ttf');
 }
-
 @font-face {
     font-family: 'OpenSans_Light';
     src: url(../fonts/OpenSans_Light.ttf);

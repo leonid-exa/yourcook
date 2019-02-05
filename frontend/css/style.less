@@ -8,20 +8,39 @@
 //----------------header----------------------
 body{
   header{
-    width: 100%;
-    background: url("../img/bg_header.jpg") top center no-repeat/cover;
-    color: #fff;
-    .containet{
+    .container{
       .menu{
+        display: flex;
+        justify-content: flex-end;
         ul{
+          display: flex;
+          flex-direction: row;
           li{
+            padding: 20px;
             a{
-              text-transform: uppercase;
-              color: #823f3f;
+              text-decoration: none;
+              color:gainsboro;
+              font-size: 30px;
+              font-style: italic;
+              font-family: 'Yesteryear_Regular', sans-serif;
             }
           }
         }
       }
     }
   }
+}
+header{
+    width: 100%;
+    background: url("../img/bg_header.jpg") top center no-repeat/cover;
+    color: #fff;
+}
+p{
+  color: red;
+  font-family: 'Yesteryear_Regular';
+}
+a{
+  font-family: Yesteryear_Regular;
+  color:#4f9900;
+  text-decoration: none;
 }
