@@ -1,0 +1,32 @@
+Index: frontend/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/index.html	(revision 6214e24732731706c97ffe72945d092acc4e50a5)
++++ frontend/index.html	(date 1547390135857)
+@@ -6,6 +6,7 @@
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+-
++    <h1>Lorem ipsum dolor.</h1>
++    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam culpa eveniet ex excepturi fugit harum ipsa ipsum, neque, numquam odio officia omnis provident quidem rerum tenetur vero voluptas voluptate!</p>
+ </body>
+ </html>
+\ No newline at end of file
+Index: frontend/css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- frontend/css/style.css	(revision 6214e24732731706c97ffe72945d092acc4e50a5)
++++ frontend/css/style.css	(date 1547390397842)
+@@ -1,0 +1,6 @@
++@import "color.css";
++@import "fonts.css";
++h1 {
++  color: antiquewhite;
++}
++/*# sourceMappingURL=style.css.map */
+\ No newline at end of file

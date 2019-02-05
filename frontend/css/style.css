@@ -1,10 +1,13 @@
+@import "reset.css";
 @import "color.css";
 @import "fonts.css";
-h1 {
-  color: antiquewhite;
-  font-family: '';
+body header {
+  width: 100%;
+  background: url("../img/bg_header.jpg") top center no-repeat / cover;
+  color: #fff;
 }
-p {
-  font-family: 'OpenSans_Light';
+body header .containet .menu ul li a {
+  text-transform: uppercase;
+  color: #823f3f;
 }
 /*# sourceMappingURL=style.css.map */

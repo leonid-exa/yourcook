@@ -1,13 +1,11 @@
-p{
-    color: #a95858;
+p {
+  color: #ffffff;
+  color: #823f3f;
+  color: #5f5e4e;
 }
-h1{
-    color: blue;
+.bg {
+  background-color: #fff;
+  background-color: #a95858;
+  background-color: #423e3e;
 }
-//____________________________--colors fonts____________________________________
-  p {
-      color: #ffffff; //на разноцветном фоне
-      color: #823f3f;
-      color: #5f5e4e; //на разноцветном фоне
-
-  }
+/*# sourceMappingURL=color.css.map */
